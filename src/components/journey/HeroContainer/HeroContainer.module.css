@@ -1,0 +1,43 @@
+/*HeroContainer.module.css*/
+
+.container {
+    @apply relative flex flex-col bg-navy; /* Ensure flexbox is used */
+}
+
+.innerContainer {
+    @apply container mx-auto px-widget flex gap-widget;
+    padding-top: 2rem; /* Adjust as needed */
+    padding-bottom: 2rem; /* Adjust as needed */
+}
+
+.contentArea {
+    @apply flex-1 flex items-center justify-between;
+}
+
+.textContent {
+    @apply max-w-2xl;
+}
+
+.heading {
+    @apply font-crimsonpro text-[38px] font-medium uppercase tracking-[2px] leading-[1.2em] text-white mb-widget;
+}
+
+.description {
+    @apply font-roboto text-[21px] font-thin leading-[1.4em] text-background mb-[36px];
+}
+
+.imageContainer {
+    @apply w-[500px] h-[600px] relative;
+}
+
+.image {
+    @apply object-cover rounded-lg shadow-xl;
+}
+
+.button {
+    @apply px-8 py-3 bg-primary text-white font-roboto text-base hover:bg-primary-dark transition-all duration-default;
+}
+
+.sidebarArea {
+    @apply hidden lg:block;
+}

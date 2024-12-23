@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    min-height: auto;
+    background-color: var(--background-secondary);
+  }
+
+  .card {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    max-width: 800px;
+    width: 100%;
+  }
+
+  .header {
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .content {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+
+  .phases {
+    margin-top: 1.5rem;
+  }
+
+  .phase {
+    background-color: #273549;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .phase:hover {
+    background-color: #334155;
+  }
+
+  .phaseTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #f8fafc;
+  }
+
+  .phaseDescription {
+    font-size: 1rem;
+    color: #cbd5e1;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+  }
+
+  .expanded {
+    background-color: #1e293b;
+  }

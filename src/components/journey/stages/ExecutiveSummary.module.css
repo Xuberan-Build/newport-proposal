@@ -1,0 +1,72 @@
+/*/Users/luminary-studio/hundred-layouts/newport-pacific-proposal/src/components/journey/stages/ExecutiveSummary.module.css*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; /* Reduced padding */
+    min-height: auto; /* Allow height to be determined by content */
+    background-color: var(--background-secondary);
+  }
+
+  .card {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-radius: 12px;
+    padding: 1.5rem; /* Reduced padding */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    max-width: 800px;
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem; /* Adjust spacing */
+  }
+
+  .title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .icon {
+    color: var(--text-secondary);
+    cursor: pointer;
+  }
+
+  .content {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem; /* Adjust spacing */
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem; /* Adjust spacing */
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .statNumber {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8fafc;
+  }
+
+  .statLabel {
+    font-size: 0.875rem;
+    color: #cbd5e1;
+  }

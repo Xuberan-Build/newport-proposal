@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; /* Reduced padding for tighter layout */
+    min-height: auto; /* Content determines height */
+    background-color: var(--background-secondary); /* Consistent background color */
+  }
+
+  .card {
+    background-color: #1e293b; /* Same dark blue for contrast */
+    color: #f8fafc; /* Light text for readability */
+    border-radius: 12px; /* Rounded corners */
+    padding: 1.5rem; /* Reduced padding to match Executive Summary */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); /* Depth */
+    max-width: 800px;
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem; /* Reduced margin */
+  }
+
+  .title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .icon {
+    color: var(--text-secondary); /* Secondary text color for icons */
+    cursor: pointer;
+  }
+
+  .content {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem; /* Reduced margin for tighter layout */
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem; /* Adjusted spacing */
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .statNumber {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8fafc;
+  }
+
+  .statLabel {
+    font-size: 0.875rem;
+    color: #cbd5e1;
+  }

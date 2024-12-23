@@ -1,0 +1,45 @@
+.toc {
+    @apply bg-white rounded-lg p-6;
+    @apply border border-[#DEDEDE];
+    @apply w-64;
+  }
+
+  .sticky {
+    @apply lg:fixed lg:top-[44px] lg:right-8;
+  }
+
+  .tocItem {
+    @apply mb-[20px];
+  }
+
+  .link {
+    @apply flex items-center py-2 px-4 rounded-md;
+    @apply text-[#333333] hover:text-[#8D001A];
+    @apply transition-all duration-[400ms] hover:scale-105;
+    @apply font-roboto text-base;
+  }
+
+  .active {
+    @apply bg-[#FFEEDD] text-[#8D001A] font-medium;
+  }
+
+  .expandButton {
+    @apply mr-2 p-1 rounded-md hover:bg-[#F9F7F5];
+    @apply transition-transform duration-[400ms];
+  }
+
+  .subsections {
+    @apply ml-4 mt-[20px];
+    animation: expandSection 400ms ease-out;
+  }
+
+  @keyframes expandSection {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

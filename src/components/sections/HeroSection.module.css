@@ -1,0 +1,27 @@
+.heroSection {
+  position: relative;
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
+  background-color: var(--background-primary);
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0;
+}
+
+.section {
+  padding: 1rem 0;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
